@@ -24,9 +24,20 @@ body {
     background-color: white;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: right;
-    align-items: center;
+    align-items: flex-end;
+    padding-inline: 20px;
     margin: 20px 5px;
+}
+
+.mini {
+    height: 40%;
+    font-size: 15px;
+}
+
+.calc {
+    height: 60%;
 }
 
 .btns {
